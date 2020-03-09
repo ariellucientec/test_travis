@@ -3,7 +3,7 @@ compiler: gcc
 
 before_install:
   python: 3.7
-  - pip3 install sympy
+  - pip install sympy
 
 script:
   - g++ -std=c++11 main.cpp
