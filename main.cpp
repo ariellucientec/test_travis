@@ -16,7 +16,7 @@ int main()
 
     string cadena = "python hello.py ";
 
-    system("pip install sympy");
+    //system("pip install sympy");
     system("python hello.py");
  
     myfile.open ("file.txt");
