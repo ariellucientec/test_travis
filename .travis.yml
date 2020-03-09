@@ -1,8 +1,9 @@
+sudo: required
 language: cpp
 compiler: gcc
 
-before_install:
-  - pip install sympy
+python: 
+  - "3.7"
 
 script:
   - g++ -std=c++11 main.cpp
