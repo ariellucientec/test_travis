@@ -2,7 +2,6 @@ language: cpp
 compiler: gcc
 
 before_install:
-  python: 3.7
   - pip install sympy
 
 script:
