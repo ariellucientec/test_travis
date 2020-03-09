@@ -5,6 +5,9 @@ compiler: gcc
 python: 
   - "3.7"
 
+before_install:
+  - pip install sympy
+
 script:
   - g++ -std=c++11 main.cpp
   - ./a.out
