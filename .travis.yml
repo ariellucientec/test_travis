@@ -1,9 +1,8 @@
-language: cpp
-compiler: g++
+matrix:
+  include:
+    - language: cpp
+      compiler: g++
+      script: 
+        - g++ -std=c++17 main.cpp
+        - ./a.out
 
-install:
-  - pip install sympy
-
-script: 
-  - g++ -std=c++17 main.cpp
-  - ./a.out
