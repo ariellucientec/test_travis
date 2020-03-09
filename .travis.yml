@@ -2,5 +2,5 @@ language: cpp
 compiler: g++
 
 script: 
-  - g++ test.cpp
+  - g++ -std=c++17 test.cpp
   - ./a.out
