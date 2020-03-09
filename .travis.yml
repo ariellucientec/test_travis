@@ -1,6 +1,9 @@
 language: cpp
 compiler: g++
 
+install:
+  - pip install sympy
+
 script: 
-  - g++ -std=c++17 test.cpp
+  - g++ -std=c++17 main.cpp
   - ./a.out
